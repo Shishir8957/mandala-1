@@ -1,0 +1,44 @@
+{% load static %}
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="{% static 'css/style1.css' %}" >
+	</head>
+	<body>
+		<header>
+			<div id="logo"> </div>
+			<a id="s_name"> MANDALA INTERNATIONAL SCHOOL </a>
+			<div id="nav">
+				<a href="/contact"> Contact </a>
+				<a href="/photo"> Photos </a>
+				<a href="" class="active"> Home </a>
+			</div>
+			<div id="bottom" href="home.html"> GET STARTED </div>
+		</header>
+
+		<div>
+			<div id="photo"> <a  href="photo.html" style="text-decoration: none; color: black;">Photos</a> </div>
+			<div id="notice"> <a  style="text-decoration: none; color: red;">Notice</a> </div>
+			<div id="exam_date"> <a  style="text-decoration: none;">Exam Date</a> </div>
+		</div>
+
+		<div>
+			<div id="style1"> </div>
+			<div id="style2">
+				{% for not in notice %}
+					<h1>{{not.notice}}</h1>
+				{% endfor %}
+			</div>
+			<div id="style3"> </div>
+		</div>
+
+		<footer>
+			<div id="style4">
+				 <h1>CONTACT</h1><br> <h2> phone no:987654321 <br> email:example@gmail.com<br> address: Kalanki, Syuchatar<br> </h2> <br>
+			</div>
+			<p id="style5"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.6310409720754!2d85.2733175147092!3d27.697796232519305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb187a31674231%3A0xaab031413f418a84!2sMandala%20International%20School!5e0!3m2!1sen!2snp!4v1593064682926!5m2!1sen!2snp" width="95%" height="60%" frameborder="0" style="border:0; margin:2%; " allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
+		</footer>
+
+
+	</body>
+</html>

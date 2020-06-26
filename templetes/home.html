@@ -1,0 +1,83 @@
+{% load static %}
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" >
+	</head>
+	<body>
+		<header>
+			
+			<div id="logo"> </div>
+			<div class="navbar">
+				<a href="/contact">Contact</a>
+				<a href="/photo">Photos</a>
+				<a class="active"  href="">Home</a> 
+			</div>
+			<div id="background-image"> </div>
+			
+
+			
+			 
+		</header>	
+			
+			<div id="h1"> MANDALA INTERNATIONAL SCHOOL </div>
+			<button class="btn get_started" href="/contact"> GET STARTED</button>
+			 
+
+			<div id="style2"> </div> 
+			
+			<div id="style1"> 
+				<img id="myImg" src="{%static 'image\bg1.jpg' %}"  style="width:100%;max-width:400px;">
+
+					<!-- The Modal -->
+					<div id="myModal" class="modal">
+					  <span class="close">&times;</span>
+					  <img class="modal-content" id="img01">
+					  <div id="caption"></div>
+					</div>
+			</div>
+
+			<div id="style3"><a href="photo" class="active"> photos→ </a> </div>
+			<div id="style4"><a  class="active"> notice→ </a> </div>
+			<div id="style5">
+				<div id="style11"><a  class="active"> {{notice.notice}} </a> </div>
+			</div> 
+			
+			<div id="style6"><a class="active"> exam-date→ </a> </div>
+			<div id="style7"></div> 
+			
+			
+			<footer>
+				<div id="style8">
+					<div id="style9"></div>
+					<div id="style10"> <h1>CONTACT</h1><br> <h2> phone no:987654321 <br> email:example@gmail.com<br> address: Kalanki, Syuchatar<br> </h2> </div>
+				</div>
+			</footer>
+			
+			
+			<script>
+				// Get the modal
+				var modal = document.getElementById("myModal");
+
+				// Get the image and insert it inside the modal - use its "alt" text as a caption
+				var img = document.getElementById("myImg");
+				var modalImg = document.getElementById("img01");
+				var captionText = document.getElementById("caption");
+				img.onclick = function(){
+				  modal.style.display = "block";
+				  modalImg.src = this.src;
+				  captionText.innerHTML = this.alt;
+				}
+
+				// Get the <span> element that closes the modal
+				var span = document.getElementsByClassName("close")[0];
+
+				// When the user clicks on <span> (x), close the modal
+				span.onclick = function() { 
+				  modal.style.display = "none";
+				}
+			</script>
+			
+	</body>
+</html>
+

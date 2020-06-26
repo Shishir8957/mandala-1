@@ -1,0 +1,357 @@
+body {
+  margin: 0;
+  background-color: #f1f1f1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  border-bottom: 3px solid red;
+}
+
+.navbar a.active {
+  border-bottom: 3px solid red;
+}
+
+.topnav {
+  overflow: hidden; 
+  background-color: ;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid red;
+}
+
+.topnav a.active {
+  border-bottom: 3px solid red;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+#logo {
+	background-image:url("../image/logo.jpg");
+	background-size: 90px 91px;
+	position: absolute;
+	top: 25px;
+	margin-left:50px;
+	height: 90px;
+	width:91px;
+}
+
+#background-image{
+	background-image:url("../image/bg3.jpg");
+	width: 1365px;
+	height: 549px;
+}
+
+#h1{
+	font-family: Georgia pro;
+	color: white;
+	font-size: 50px;
+	position: absolute;
+	top:200px;
+	left:250px;
+	font-weight:bold;
+	height:60px;
+}
+.btn {
+  border: 2px solid black;
+  background-color: transparent;
+  color: black;
+  padding: 14px 28px;
+  font-size: 30px;
+  cursor: pointer;
+  position:absolute;
+  top:310px;
+  left:540px;
+  border-radius:25px;
+}
+.get_started {
+  border-color: #c9f3f5;
+  color: #c9f3f5;
+}
+
+.get_started:hover {
+  background-color: #c9f3f5;
+  color: Black;
+}
+
+#style1{
+	background-size: 200px 400px;
+	position: absolute;
+	height: 300px;
+	width: 400px;
+	border-radius: 4px;
+	top: 650px;
+	left: 2%;
+	
+}
+#style1:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#style3{
+	position:absolute;
+	top: 600px;
+	left:2%;
+}
+
+#style3 a{
+	text-decoration:none;
+	font-size: 30px;
+	color: Blue;
+}
+
+#style4{
+	position:absolute;
+	top: 600px;
+	left:35%;
+	color: red;
+}
+
+#style4 a{
+	text-decoration:none;
+	font-size: 30px;
+	text-color: white;
+}
+
+#style5{
+	background-color: red;
+	background-size: 200px 400px;
+	position: absolute;
+	height: 300px;
+	width: 400px;
+	border-radius: 4px;
+	top: 650px;
+	left: 35%;
+}
+
+#style6{
+	position:absolute;
+	top: 600px;
+	left:68%;
+	color: blue;
+}
+
+#style6 a{
+	text-decoration:none;
+	font-size: 30px;
+}
+
+#style7{
+	background-color: blue;
+	background-size: 200px 400px;
+	position: absolute;
+	height: 300px;
+	width: 400px;
+	border-radius: 4px;
+	top: 650px;
+	left: 68%;
+}
+
+#style8{
+	position: absolute;
+	background-color: grey;
+	height:60%;
+	width:100%;
+	top: 150%;
+}
+#style9{
+	position:absolute;
+	background-size: 500px 500px;
+	top: 5%;
+	right: 5%;
+	background-image: url("../image/l.jpg");
+	height: 90%;
+	width: 42%;
+	
+}
+#style10{
+	position: absolute;
+	left:8%;
+	top:15%;
+}
+#style12{
+	position: absolute;
+	background-color: #faf6eb;
+	height:42%;
+	width:72%;
+	padding-top:2%;
+	right:2%;
+	
+}
+#style13{
+	position: relative;
+	top: auto;
+	left: auto;
+	padding-top:8%;
+	padding-left: 8%;
+}
+
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+table {
+  border-spacing: 5px;
+  width: 100%;
+  padding:5%;
+}
+
+th, td {
+  text-align: left;
+  padding: 5px;
+  font-size:20px;
+  border: 2px solid grey;
+}
+
+tr:nth-child(odd) {
+  background-color: #ffd561;
+}
+
+* {box-sizing: border-box;}
+
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+  padding-left:2%;
+  
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 91%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}

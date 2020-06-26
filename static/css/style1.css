@@ -1,0 +1,444 @@
+ *{
+	margin:0px;
+	padding:0PX;	
+	box-sizing: border-box;
+ }
+body{
+	background-color: #e8fbfc;
+	font-family: 'Poppins',sans-serif;
+ }
+
+header{
+	height: 80%;
+	width: 100%;
+	background-image:url('../image/bg2.jpg');
+	background-position: center;
+	box-sizing: border-box;
+	border-radius:0px 1000px 0px;
+	
+}
+
+#logo{
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	background-image: url('../image/logo.jpg');
+	background-size: cover;
+	margin-top:20px;
+	margin-left: 20px;
+}
+
+#s_name{
+	position: absolute;
+	font-size: 300%;
+	font-family: 'Poppins',sans-serif;
+	color: white;
+	top: 220px;
+	left: 270px;
+}
+
+#nav{
+	overflow: hidden;
+	background-color: transparent;
+}
+
+#nav a{
+	float: right;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	text-align: front;
+	font-size: 20px;
+}
+#nav a:hover{
+	border-bottom: 3px solid red;
+}
+#nav a.active {
+  border-bottom: 3px solid red;
+}
+
+#bottom{
+  border: 2px solid black;
+  background-color: transparent;
+  padding: 14px 28px;
+  font-size: 30px;
+  cursor: pointer;
+  position:absolute;
+  top:310px;
+  left:540px;
+  border-radius:25px;
+  border-color: #c9f3f5;
+  color: #c9f3f5;
+}
+
+#bottom:hover {
+  background-color: #c9f3f5;
+  color: Black;
+}
+
+#photo{
+	margin-top: 30px;
+	position:absolute;
+	background-color: transparent;
+	height: 50px;
+	width: 100%;
+	font-size: 30px;
+	color: blue;
+	padding-left: 5%;
+}
+
+#notice{
+	margin-top: 30px;
+	position:absolute;
+	background-color: transparent;
+	height: 50px;
+	width: 100%;
+	font-size: 30px;
+	color: blue;
+	padding-left: 36%;
+}
+#exam_date{
+	margin-top: 30px;
+	position:absolute;
+	background-color: transparent;
+	height: 50px;
+	width: 100%;
+	font-size: 30px;
+	color: blue;
+	padding-left: 69%;
+}
+
+footer{
+	margin-top: 40px;
+	position: bottom;
+	background-color: gray;
+	height: 50%;
+	width: 100%
+}
+
+#style1{
+	position: align(center);
+	margin-top: 90px;
+	margin-left: 2%;
+	background-color: black;
+	background-image: url('../image/bg2.jpg');
+	background-size: cover;
+	height: 250px;
+	width: 30%;
+	border-radius:25px;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+#style2{
+	position: absolute;
+	top: 550px;
+	margin-top: 90px;
+	margin-left: 36%;
+	background-color: red;
+	height: 250px;
+	width: 30%;
+	border-radius:25px;
+}
+
+#style3{
+	position: absolute;
+	top: 550px;
+	margin-top: 90px;
+	margin-left: 69%;
+	background-color: blue;
+	height: 250px;
+	width: 30%;
+	border-radius:25px;
+}
+
+#style4{
+
+	padding-left:8%;
+	padding-top:8%;
+}
+
+
+
+@media screen and (max-width: 500px ) {
+	*{
+		margin:0px;
+		padding:0PX;
+		box-sizing: border-box;
+	 }
+	 #s_name{
+		position: absolute;
+		font-size: 40px;
+		font-family: Aldhabi;
+		color: white;
+		left: 3px;
+		text-align: center;
+}
+	#bottom{
+		top: 400px;
+		left: 26%;
+		font-size: 20px;
+	}
+
+	#photo{
+		margin-top: 30px;
+		height: 50px;
+		width: 100%;
+		padding-left: 5%;
+	}
+
+
+	#style1{
+		top: 580px;
+		position: absolute;
+		height: 250px;
+		width: 90%;
+		margin-left: 5%;
+		box-shadow: 5px 5px 5px #888888;
+	}
+
+	#notice{
+		top: 923px;
+		height: 250px;
+		width: 350px;
+		font-size: 30px;
+		padding-left: 5%;
+	}
+
+	#style2{
+		margin-top: 450px;
+		margin-left: 5%;
+		background-color: red;
+		height: 250px;
+		width: 90%;
+	}
+
+	#exam_date{
+		padding-top: 666px;
+		height: 50px;
+		width: 100%;
+		padding-left: 5%;
+	}
+
+	#style3{
+		margin-top: 780px;
+		margin-left:5%;
+		background-color: blue;
+		height: 250px;
+		width: 90%;
+	}
+
+	footer{
+		margin-top: 1050px;
+		position: bottom;
+		background-color: gray;
+		height: 80%;
+		width: 100%
+	}
+
+
+
+}
+
+@media screen and (max-width: 800px) {
+  *{
+		margin:0px;
+		padding:0PX;
+		box-sizing: border-box;
+	 }
+	 #s_name{
+		position: absolute;
+		font-size: 50px;
+		font-family: Aldhabi;
+		color: white;
+		left: 3px;
+		text-align: center;
+		text-shadow: 10px 5px black;
+}
+	#bottom{
+		top: 380px;
+		left: 280px;
+		font-size: 20px;
+	}
+
+	#photo{
+		margin-top: 30px;
+		height: 50px;
+		width: 100%;
+		padding-left: 5%;
+	}
+
+
+	#style1{
+		position: center;
+		margin-top: 80px;
+		margin-left: 3%;
+		background-color: black;
+		height: 300px;
+		width: 95%;
+		padding: 9%;
+	}
+
+	#notice{
+		margin-top: 400px;
+		height: 250px;
+		width: 350px;
+		font-size: 30px;
+		padding-left: 7%;
+	}
+
+	#style2{
+		top: 130%;
+		margin-left: 3%;
+		background-color: red;
+		height: 250px;
+		width: 95%;
+		padding-left: 10%;
+	}
+	#exam_date{
+		padding-top: 710px;
+		height: 50px;
+		width: 100%;
+		padding-left: 5%;
+	}
+
+	#style3{
+		top: 178%;
+		margin-left: 3%;
+		background-color: blue;
+		height: 250px;
+		width: 95%;
+		padding-left: 10%;
+	}
+
+	footer{
+		margin-top: 700px;
+		position: bottom;
+		background-color: gray;
+		height: 80%;
+		width: 100%
+	}
+
+
+}
+
+@media screen and (min-width: 800px){
+	#s_name{
+		position: absolute;
+		font-size: 300%;
+		font-family: 'Poppins',sans-serif;
+		color: white;
+		top: 220px;
+		left: 270px;
+	}
+
+	#bottom{
+	  border: 2px solid black;
+	  background-color: transparent;
+	  padding: 14px 28px;
+	  font-size: 30px;
+	  cursor: pointer;
+	  position:absolute;
+	  top:310px;
+	  left:540px;
+	  border-radius:25px;
+	  border-color: #c9f3f5;
+	  color: #c9f3f5;
+	}
+
+	#bottom:hover {
+	  background-color: #c9f3f5;
+	  color: Black;
+	}
+
+	#photo{
+		margin-top: 30px;
+		position:absolute;
+		background-color: transparent;
+		height: 50px;
+		width: 100%;
+		font-size: 30px;
+		color: blue;
+		padding-left: 5%;
+	}
+
+	#notice{
+		margin-top: 30px;
+		position:absolute;
+		background-color: transparent;
+		height: 50px;
+		width: 100%;
+		font-size: 30px;
+		color: blue;
+		padding-left: 36%;
+	}
+	#exam_date{
+		margin-top: 30px;
+		position:absolute;
+		background-color: transparent;
+		height: 50px;
+		width: 100%;
+		font-size: 30px;
+		color: blue;
+		padding-left: 69%;
+	}
+
+	footer{
+		margin-top: 40px;
+		position: bottom;
+		background-color: gray;
+		height: 50%;
+		width: 100%
+	}
+
+	#style1{
+		position: align(center);
+		margin-top: 90px;
+		margin-left: 2%;
+		background-color: black;
+		background-image: url('../image/bg2.jpg');
+		background-size: cover;
+		height: 250px;
+		width: 30%;
+		border-radius:25px;
+		box-shadow: 5px 5px 5px #888888;
+	}
+
+	#style2{
+		position: absolute;
+		top: 550px;
+		margin-top: 90px;
+		margin-left: 36%;
+		background-color: red;
+		height: 250px;
+		width: 30%;
+		border-radius:25px;
+	}
+
+	#style3{
+		position: absolute;
+		top: 550px;
+		margin-top: 90px;
+		margin-left: 69%;
+		background-color: blue;
+		height: 250px;
+		width: 30%;
+		border-radius:25px;
+	}
+
+	#style4{
+
+		padding-left:8%;
+		padding-top:8%;
+	}
+
+	#style5{
+		position: absolute;
+		height: 68%;
+		width: 50%;
+		left: 50%;
+		top: 138%;
+	}
+
+}
