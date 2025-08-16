@@ -79,7 +79,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'mandala',
-        'PASSWORD': '4912',
+        'PASSWORD': '1532',
         'USER': 'postgres',
         'HOST':'localhost',
     }
